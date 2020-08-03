@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img class="img" alt="git" src="./assets/git.jpg">
+    <Battle msg="Welcome to GitHub Battle"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Battle from './components/Battle.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Battle
   }
 }
 </script>
@@ -22,7 +22,14 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: black;
   margin-top: 60px;
 }
+.img {
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+
+
 </style>
